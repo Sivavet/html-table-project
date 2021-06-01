@@ -1,0 +1,28 @@
+body{
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkblue;
+}
+header{
+}
+main{
+    /* background-color: khaki; */
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+}
+h2{
+    color: crimson;
+}
+table{
+    border: 2px solid darkgreen;
+    /* background-color: khaki; */
+}
+thead{
+    background-color: greenyellow;
+}
+tr > td:first-child{
+    background-color: lightgoldenrodyellow;
+}
